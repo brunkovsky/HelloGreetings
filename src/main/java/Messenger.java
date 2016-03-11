@@ -45,7 +45,7 @@ public class Messenger {
         log.info("the result of reading configuration file:\nmorning = " + morning + "\nday = " + day + "\nevening = " + evening + "\nnight = " + night);
     }
 
-    // возвращает преветствие в зависимости от времени суток
+    // возвращает приветствие в зависимости от времени суток
     public String getGreeting (Date date) {
         log.info("received date = " + date);
         String result;
