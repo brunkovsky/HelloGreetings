@@ -43,7 +43,7 @@ public class Messenger {
         }
     }
 
-    // возвращает преветствие в зависимости от времени суток
+    // возвращает приветствие в зависимости от времени суток
     public String getGreeting (Date date) {
         log.info("received date = " + date);
         String result;
