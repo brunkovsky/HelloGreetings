@@ -1,0 +1,21 @@
+2016-03-12 18:32:23 INFO  Messenger:23 - received name of properties file = src/main/resources/english.properties
+2016-03-12 18:32:23 INFO  Messenger:23 - received name of properties file = src/main/resources/english.properties
+2016-03-12 18:32:23 INFO  Messenger:23 - received name of properties file = src/main/resources/russian.properties
+2016-03-12 18:32:23 INFO  Messenger:23 - received name of properties file = src/main/resources/russian.properties
+2016-03-12 18:32:23 INFO  MessengerFactoryOop:25 - received local = en_US
+2016-03-12 18:32:23 INFO  MessengerFactoryOop:28 - messenger return object = Messenger{morning='Good morning, World!', day='Good day, World!', evening='Good evening, World!', night='Good night, World!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-12 18:32:23 INFO  Messenger:48 - received date = Sat Mar 12 18:32:23 EET 2016
+2016-03-12 18:32:23 INFO  Messenger:53 - Hour was obtained. hour = 18
+2016-03-12 18:32:23 INFO  Messenger:59 - construction 'if else' choose DAY
+2016-03-12 18:32:23 INFO  Messenger:68 - Greeting was obtained. result = Good day, World!
+
+
+2016-03-12 18:32:23 INFO  MessengerFactoryProcedural:11 - received local = en_US
+2016-03-12 18:32:23 INFO  Messenger:23 - received name of properties file = src/main/resources/english.properties
+2016-03-12 18:32:23 INFO  MessengerFactoryProcedural:24 - messenger return object = Messenger{morning='Good morning, World!', day='Good day, World!', evening='Good evening, World!', night='Good night, World!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-12 18:32:23 INFO  Messenger:48 - received date = Sat Mar 12 18:32:23 EET 2016
+2016-03-12 18:32:23 INFO  Messenger:53 - Hour was obtained. hour = 18
+2016-03-12 18:32:23 INFO  Messenger:59 - construction 'if else' choose DAY
+2016-03-12 18:32:23 INFO  Messenger:68 - Greeting was obtained. result = Good day, World!
+
+

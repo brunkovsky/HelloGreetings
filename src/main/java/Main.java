@@ -6,9 +6,15 @@ public class Main {
         Locale currentLocale = Locale.getDefault();
         Date currentTime = new Date();
 
-        MessengerFactory messageFactory = new MessengerFactory();
-        Messenger messenger = messageFactory.getMessenger(currentLocale);
-        String greeting = messenger.getGreeting(currentTime);
-        System.out.println(greeting);
+        MessengerFactory oopFactory = new MessengerFactoryOop();
+        MessengerFactory proceduralFactory = new MessengerFactoryProcedural();
+
+        Messenger oopMessenger = oopFactory.getMessenger(currentLocale);
+        String oopGreeting = oopMessenger.getGreeting(currentTime);
+        System.out.println(oopGreeting);
+
+        Messenger proceduralMessenger = proceduralFactory.getMessenger(currentLocale);
+        String proceduralGreeting = proceduralMessenger.getGreeting(currentTime);
+        System.out.println(proceduralGreeting);
     }
 }

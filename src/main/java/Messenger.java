@@ -13,10 +13,10 @@ public class Messenger {
     private final String day;
     private final String evening;
     private final String night;
-    private final int MORNING_START = 6;
-    private final int DAY_START = 9;
-    private final int EVENING_START = 19;
-    private final int NIGHT_START = 23;
+    private final static int MORNING_START = 6;
+    private final static int DAY_START = 9;
+    private final static int EVENING_START = 19;
+    private final static int NIGHT_START = 23;
 
     // метод возвращает messenger с полями, указанными в property-файле
     public Messenger(String nameOfPropertiesFile) {
@@ -41,8 +41,6 @@ public class Messenger {
             log.warn("some strings in property file are null!");
             System.err.println("some strings in property file are null!");
         }
-
-        log.info("the result of reading configuration file:\nmorning = " + morning + "\nday = " + day + "\nevening = " + evening + "\nnight = " + night);
     }
 
     // возвращает преветствие в зависимости от времени суток
