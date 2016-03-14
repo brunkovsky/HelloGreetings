@@ -63,7 +63,7 @@ public class Messenger {
             log.info("construction 'if else' choose EVENING");
             result = evening;
         } else {
-            log.info("construction 'if else' choose MORNING");
+            log.info("construction 'if else' choose NIGHT");
             result = night;
         }
         log.info("Greeting was obtained. result = " + result + "\n\n");
