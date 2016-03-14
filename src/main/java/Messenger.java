@@ -2,6 +2,7 @@ import org.apache.log4j.Logger;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -24,9 +25,9 @@ public class Messenger {
         Properties properties = new Properties();
 
         try {
-            FileInputStream fileInputStream = new FileInputStream(nameOfPropertiesFile);
-            InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream, "UTF-8");
-            properties.load(inputStreamReader);
+            InputStream inputStreamReader = Main.class.getClassLoader().getResourceAsStream(nameOfPropertiesFile);
+            InputStreamReader inputStream = new InputStreamReader(inputStreamReader, "UTF-8");
+            properties.load(inputStream);
         } catch (IOException e) {
             log.error("error reading properties file");
             System.err.println("error reading properties file");

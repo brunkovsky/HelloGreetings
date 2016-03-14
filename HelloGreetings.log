@@ -1,21 +1,279 @@
-2016-03-12 18:32:23 INFO  Messenger:23 - received name of properties file = src/main/resources/english.properties
-2016-03-12 18:32:23 INFO  Messenger:23 - received name of properties file = src/main/resources/english.properties
-2016-03-12 18:32:23 INFO  Messenger:23 - received name of properties file = src/main/resources/russian.properties
-2016-03-12 18:32:23 INFO  Messenger:23 - received name of properties file = src/main/resources/russian.properties
-2016-03-12 18:32:23 INFO  MessengerFactoryOop:25 - received local = en_US
-2016-03-12 18:32:23 INFO  MessengerFactoryOop:28 - messenger return object = Messenger{morning='Good morning, World!', day='Good day, World!', evening='Good evening, World!', night='Good night, World!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
-2016-03-12 18:32:23 INFO  Messenger:48 - received date = Sat Mar 12 18:32:23 EET 2016
-2016-03-12 18:32:23 INFO  Messenger:53 - Hour was obtained. hour = 18
-2016-03-12 18:32:23 INFO  Messenger:59 - construction 'if else' choose DAY
-2016-03-12 18:32:23 INFO  Messenger:68 - Greeting was obtained. result = Good day, World!
+2016-03-14 19:29:18 INFO  Messenger:24 - received name of properties file = english.properties
+2016-03-14 19:29:18 INFO  Messenger:24 - received name of properties file = english.properties
+2016-03-14 19:29:18 INFO  Messenger:24 - received name of properties file = russian.properties
+2016-03-14 19:29:18 INFO  Messenger:24 - received name of properties file = russian.properties
+2016-03-14 19:29:18 INFO  MessengerFactoryOop:27 - received local = en_US
+2016-03-14 19:29:18 INFO  MessengerFactoryOop:30 - messenger return object = Messenger{morning='Good morning, World!', day='Good day, World!', evening='Good evening, World!', night='Good night, World!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-14 19:29:18 INFO  Messenger:49 - received date = Mon Mar 14 19:29:18 EET 2016
+2016-03-14 19:29:18 INFO  Messenger:54 - Hour was obtained. hour = 19
+2016-03-14 19:29:18 INFO  Messenger:63 - construction 'if else' choose EVENING
+2016-03-14 19:29:18 INFO  Messenger:69 - Greeting was obtained. result = Good evening, World!
 
 
-2016-03-12 18:32:23 INFO  MessengerFactoryProcedural:11 - received local = en_US
-2016-03-12 18:32:23 INFO  Messenger:23 - received name of properties file = src/main/resources/english.properties
-2016-03-12 18:32:23 INFO  MessengerFactoryProcedural:24 - messenger return object = Messenger{morning='Good morning, World!', day='Good day, World!', evening='Good evening, World!', night='Good night, World!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
-2016-03-12 18:32:23 INFO  Messenger:48 - received date = Sat Mar 12 18:32:23 EET 2016
-2016-03-12 18:32:23 INFO  Messenger:53 - Hour was obtained. hour = 18
-2016-03-12 18:32:23 INFO  Messenger:59 - construction 'if else' choose DAY
-2016-03-12 18:32:23 INFO  Messenger:68 - Greeting was obtained. result = Good day, World!
+2016-03-14 19:29:18 INFO  MessengerFactoryProcedural:11 - received local = en_US
+2016-03-14 19:29:18 INFO  Messenger:24 - received name of properties file = english.properties
+2016-03-14 19:29:18 INFO  MessengerFactoryProcedural:24 - messenger return object = Messenger{morning='Good morning, World!', day='Good day, World!', evening='Good evening, World!', night='Good night, World!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-14 19:29:18 INFO  Messenger:49 - received date = Mon Mar 14 19:29:18 EET 2016
+2016-03-14 19:29:18 INFO  Messenger:54 - Hour was obtained. hour = 19
+2016-03-14 19:29:18 INFO  Messenger:63 - construction 'if else' choose EVENING
+2016-03-14 19:29:18 INFO  Messenger:69 - Greeting was obtained. result = Good evening, World!
+
+
+2016-03-14 19:34:01 INFO  Messenger:24 - received name of properties file = english.properties
+2016-03-14 19:34:01 INFO  Messenger:24 - received name of properties file = english.properties
+2016-03-14 19:34:01 INFO  Messenger:24 - received name of properties file = russian.properties
+2016-03-14 19:34:01 INFO  Messenger:24 - received name of properties file = russian.properties
+2016-03-14 19:34:01 INFO  MessengerFactoryProcedural:11 - received local = ru
+2016-03-14 19:34:01 INFO  Messenger:24 - received name of properties file = russian.properties
+2016-03-14 19:34:01 INFO  MessengerFactoryProcedural:24 - messenger return object = Messenger{morning='С добрым утром, Мир!', day='Добрый день, Мир!', evening='Добрый вечер, Мир!', night='Спокойной ночи, Мир!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-14 19:34:01 INFO  MessengerFactoryProcedural:11 - received local = en
+2016-03-14 19:34:01 INFO  Messenger:24 - received name of properties file = english.properties
+2016-03-14 19:34:01 INFO  MessengerFactoryProcedural:24 - messenger return object = Messenger{morning='Good morning, World!', day='Good day, World!', evening='Good evening, World!', night='Good night, World!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-14 19:34:01 INFO  MessengerFactoryProcedural:11 - received local = some string
+2016-03-14 19:34:01 INFO  Messenger:24 - received name of properties file = english.properties
+2016-03-14 19:34:01 INFO  MessengerFactoryProcedural:24 - messenger return object = Messenger{morning='Good morning, World!', day='Good day, World!', evening='Good evening, World!', night='Good night, World!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-14 19:34:01 INFO  MessengerFactoryOop:27 - received local = ru
+2016-03-14 19:34:01 INFO  MessengerFactoryOop:30 - messenger return object = Messenger{morning='С добрым утром, Мир!', day='Добрый день, Мир!', evening='Добрый вечер, Мир!', night='Спокойной ночи, Мир!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-14 19:34:01 INFO  MessengerFactoryOop:27 - received local = en
+2016-03-14 19:34:01 INFO  MessengerFactoryOop:30 - messenger return object = Messenger{morning='Good morning, World!', day='Good day, World!', evening='Good evening, World!', night='Good night, World!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-14 19:34:01 INFO  MessengerFactoryOop:27 - received local = some string
+2016-03-14 19:34:01 INFO  MessengerFactoryOop:30 - messenger return object = Messenger{morning='Good morning, World!', day='Good day, World!', evening='Good evening, World!', night='Good night, World!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-14 19:34:01 INFO  Messenger:24 - received name of properties file = russian.properties
+2016-03-14 19:34:01 INFO  Messenger:24 - received name of properties file = english.properties
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Sun Apr 02 23:00:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 23
+2016-03-14 19:34:01 INFO  Messenger:66 - construction 'if else' choose MORNING
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Спокойной ночи, Мир!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 00:00:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 0
+2016-03-14 19:34:01 INFO  Messenger:66 - construction 'if else' choose MORNING
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Спокойной ночи, Мир!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 05:59:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 5
+2016-03-14 19:34:01 INFO  Messenger:66 - construction 'if else' choose MORNING
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Спокойной ночи, Мир!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 06:00:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 6
+2016-03-14 19:34:01 INFO  Messenger:57 - construction 'if else' choose MORNING
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = С добрым утром, Мир!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 08:59:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 8
+2016-03-14 19:34:01 INFO  Messenger:57 - construction 'if else' choose MORNING
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = С добрым утром, Мир!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 09:00:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 9
+2016-03-14 19:34:01 INFO  Messenger:60 - construction 'if else' choose DAY
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Добрый день, Мир!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 18:59:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 18
+2016-03-14 19:34:01 INFO  Messenger:60 - construction 'if else' choose DAY
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Добрый день, Мир!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 19:00:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 19
+2016-03-14 19:34:01 INFO  Messenger:63 - construction 'if else' choose EVENING
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Добрый вечер, Мир!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 22:59:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 22
+2016-03-14 19:34:01 INFO  Messenger:63 - construction 'if else' choose EVENING
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Добрый вечер, Мир!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Sun Apr 02 23:00:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 23
+2016-03-14 19:34:01 INFO  Messenger:66 - construction 'if else' choose MORNING
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Good night, World!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 00:00:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 0
+2016-03-14 19:34:01 INFO  Messenger:66 - construction 'if else' choose MORNING
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Good night, World!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 05:59:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 5
+2016-03-14 19:34:01 INFO  Messenger:66 - construction 'if else' choose MORNING
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Good night, World!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 06:00:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 6
+2016-03-14 19:34:01 INFO  Messenger:57 - construction 'if else' choose MORNING
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Good morning, World!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 08:59:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 8
+2016-03-14 19:34:01 INFO  Messenger:57 - construction 'if else' choose MORNING
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Good morning, World!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 09:00:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 9
+2016-03-14 19:34:01 INFO  Messenger:60 - construction 'if else' choose DAY
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Good day, World!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 18:59:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 18
+2016-03-14 19:34:01 INFO  Messenger:60 - construction 'if else' choose DAY
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Good day, World!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 19:00:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 19
+2016-03-14 19:34:01 INFO  Messenger:63 - construction 'if else' choose EVENING
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Good evening, World!
+
+
+2016-03-14 19:34:01 INFO  Messenger:49 - received date = Mon Apr 03 22:59:00 EEST 3916
+2016-03-14 19:34:01 INFO  Messenger:54 - Hour was obtained. hour = 22
+2016-03-14 19:34:01 INFO  Messenger:63 - construction 'if else' choose EVENING
+2016-03-14 19:34:01 INFO  Messenger:69 - Greeting was obtained. result = Good evening, World!
+
+
+2016-03-14 19:34:20 INFO  Messenger:24 - received name of properties file = english.properties
+2016-03-14 19:34:20 INFO  Messenger:24 - received name of properties file = english.properties
+2016-03-14 19:34:20 INFO  Messenger:24 - received name of properties file = russian.properties
+2016-03-14 19:34:20 INFO  Messenger:24 - received name of properties file = russian.properties
+2016-03-14 19:34:20 INFO  MessengerFactoryProcedural:11 - received local = ru
+2016-03-14 19:34:20 INFO  Messenger:24 - received name of properties file = russian.properties
+2016-03-14 19:34:20 INFO  MessengerFactoryProcedural:24 - messenger return object = Messenger{morning='С добрым утром, Мир!', day='Добрый день, Мир!', evening='Добрый вечер, Мир!', night='Спокойной ночи, Мир!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-14 19:34:20 INFO  MessengerFactoryProcedural:11 - received local = en
+2016-03-14 19:34:20 INFO  Messenger:24 - received name of properties file = english.properties
+2016-03-14 19:34:20 INFO  MessengerFactoryProcedural:24 - messenger return object = Messenger{morning='Good morning, World!', day='Good day, World!', evening='Good evening, World!', night='Good night, World!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-14 19:34:20 INFO  MessengerFactoryProcedural:11 - received local = some string
+2016-03-14 19:34:20 INFO  Messenger:24 - received name of properties file = english.properties
+2016-03-14 19:34:20 INFO  MessengerFactoryProcedural:24 - messenger return object = Messenger{morning='Good morning, World!', day='Good day, World!', evening='Good evening, World!', night='Good night, World!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-14 19:34:20 INFO  MessengerFactoryOop:27 - received local = ru
+2016-03-14 19:34:20 INFO  MessengerFactoryOop:30 - messenger return object = Messenger{morning='С добрым утром, Мир!', day='Добрый день, Мир!', evening='Добрый вечер, Мир!', night='Спокойной ночи, Мир!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-14 19:34:20 INFO  MessengerFactoryOop:27 - received local = en
+2016-03-14 19:34:20 INFO  MessengerFactoryOop:30 - messenger return object = Messenger{morning='Good morning, World!', day='Good day, World!', evening='Good evening, World!', night='Good night, World!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-14 19:34:20 INFO  MessengerFactoryOop:27 - received local = some string
+2016-03-14 19:34:20 INFO  MessengerFactoryOop:30 - messenger return object = Messenger{morning='Good morning, World!', day='Good day, World!', evening='Good evening, World!', night='Good night, World!', MORNING_START=6, DAY_START=9, EVENING_START=19, NIGHT_START=23}
+2016-03-14 19:34:20 INFO  Messenger:24 - received name of properties file = russian.properties
+2016-03-14 19:34:20 INFO  Messenger:24 - received name of properties file = english.properties
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Sun Apr 02 23:00:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 23
+2016-03-14 19:34:20 INFO  Messenger:66 - construction 'if else' choose MORNING
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Спокойной ночи, Мир!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 00:00:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 0
+2016-03-14 19:34:20 INFO  Messenger:66 - construction 'if else' choose MORNING
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Спокойной ночи, Мир!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 05:59:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 5
+2016-03-14 19:34:20 INFO  Messenger:66 - construction 'if else' choose MORNING
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Спокойной ночи, Мир!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 06:00:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 6
+2016-03-14 19:34:20 INFO  Messenger:57 - construction 'if else' choose MORNING
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = С добрым утром, Мир!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 08:59:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 8
+2016-03-14 19:34:20 INFO  Messenger:57 - construction 'if else' choose MORNING
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = С добрым утром, Мир!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 09:00:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 9
+2016-03-14 19:34:20 INFO  Messenger:60 - construction 'if else' choose DAY
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Добрый день, Мир!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 18:59:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 18
+2016-03-14 19:34:20 INFO  Messenger:60 - construction 'if else' choose DAY
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Добрый день, Мир!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 19:00:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 19
+2016-03-14 19:34:20 INFO  Messenger:63 - construction 'if else' choose EVENING
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Добрый вечер, Мир!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 22:59:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 22
+2016-03-14 19:34:20 INFO  Messenger:63 - construction 'if else' choose EVENING
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Добрый вечер, Мир!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Sun Apr 02 23:00:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 23
+2016-03-14 19:34:20 INFO  Messenger:66 - construction 'if else' choose MORNING
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Good night, World!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 00:00:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 0
+2016-03-14 19:34:20 INFO  Messenger:66 - construction 'if else' choose MORNING
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Good night, World!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 05:59:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 5
+2016-03-14 19:34:20 INFO  Messenger:66 - construction 'if else' choose MORNING
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Good night, World!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 06:00:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 6
+2016-03-14 19:34:20 INFO  Messenger:57 - construction 'if else' choose MORNING
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Good morning, World!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 08:59:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 8
+2016-03-14 19:34:20 INFO  Messenger:57 - construction 'if else' choose MORNING
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Good morning, World!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 09:00:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 9
+2016-03-14 19:34:20 INFO  Messenger:60 - construction 'if else' choose DAY
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Good day, World!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 18:59:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 18
+2016-03-14 19:34:20 INFO  Messenger:60 - construction 'if else' choose DAY
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Good day, World!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 19:00:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 19
+2016-03-14 19:34:20 INFO  Messenger:63 - construction 'if else' choose EVENING
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Good evening, World!
+
+
+2016-03-14 19:34:20 INFO  Messenger:49 - received date = Mon Apr 03 22:59:00 EEST 3916
+2016-03-14 19:34:20 INFO  Messenger:54 - Hour was obtained. hour = 22
+2016-03-14 19:34:20 INFO  Messenger:63 - construction 'if else' choose EVENING
+2016-03-14 19:34:20 INFO  Messenger:69 - Greeting was obtained. result = Good evening, World!
 
 

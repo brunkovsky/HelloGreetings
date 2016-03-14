@@ -13,13 +13,13 @@ class MessengerFactoryProcedural implements MessengerFactory {
 
         switch (locale.toString()) {
             case "ru":      // русская локаль для MAC OS X
-                messenger = new Messenger("src/main/resources/russian.properties");
+                messenger = new Messenger("russian.properties");
                 break;
             case "ru_RU":   // русская локаль для Windows
-                messenger = new Messenger("src/main/resources/russian.properties");
+                messenger = new Messenger("russian.properties");
                 break;
             default:
-                messenger = new Messenger("src/main/resources/english.properties");
+                messenger = new Messenger("english.properties");
         }
         log.info("messenger return object = " + messenger);
         return messenger;

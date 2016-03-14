@@ -14,10 +14,10 @@ class MessengerFactoryOop implements MessengerFactory {
     // пришлось дублировать значения с разными ключами,
     // т.к. разные ОС по-разному выводят в строку свою локаль.
     public MessengerFactoryOop() {
-        languagesMap.put("en", new Messenger("src/main/resources/english.properties"));
-        languagesMap.put("en_EN", new Messenger("src/main/resources/english.properties"));
-        languagesMap.put("ru", new Messenger("src/main/resources/russian.properties"));
-        languagesMap.put("ru_RU", new Messenger("src/main/resources/russian.properties"));
+        languagesMap.put("en", new Messenger("english.properties"));
+        languagesMap.put("en_EN", new Messenger("english.properties"));
+        languagesMap.put("ru", new Messenger("russian.properties"));
+        languagesMap.put("ru_RU", new Messenger("russian.properties"));
     }
 
     // метод выбирает из мапы languagesMap объект

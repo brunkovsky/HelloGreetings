@@ -7,8 +7,8 @@ public class MessengerTest {
 
     @Test
     public void testShowGreeting() {
-        Messenger rusMessenger = new Messenger("src/test/test-resources/russian.properties");
-        Messenger engMessenger = new Messenger("src/test/test-resources/english.properties");
+        Messenger rusMessenger = new Messenger("russian.properties");
+        Messenger engMessenger = new Messenger("english.properties");
 
         Date night0 = new Date(2016, 3, 2, 23, 0);
         Date night1 = new Date(2016, 3, 3, 0, 0);
