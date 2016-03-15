@@ -26,8 +26,8 @@ public class MessengerTest {
         Date time_19_00 = new Date(oneHour * 19 - gmt);
         Date time_22_59 = new Date(oneHour * 22 + minutes59 - gmt);
 
-        assertEquals("_Good night, World!", engMessenger.getGreeting(time_00_00));
-        assertEquals("_Good night, World!", engMessenger.getGreeting(time_05_59));
+        assertEquals("Good night, World!", engMessenger.getGreeting(time_00_00));
+        assertEquals("Good night, World!", engMessenger.getGreeting(time_05_59));
         assertEquals("Good morning, World!", engMessenger.getGreeting(time_06_00));
         assertEquals("Good morning, World!", engMessenger.getGreeting(time_08_59));
         assertEquals("Good day, World!", engMessenger.getGreeting(time_09_00));
