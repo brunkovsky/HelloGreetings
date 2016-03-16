@@ -9,7 +9,7 @@ import java.util.Locale;
 import java.util.Properties;
 
 public class Messenger {
-    private static final Logger log = Logger.getLogger(Messenger.class);
+    private static final Logger log = Logger.getLogger(Messenger.class.getName());
     private String morning;
     private String day;
     private String evening;

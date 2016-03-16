@@ -1,0 +1,52 @@
+2016-03-16 08:11:28 INFO  Messenger:33 - received local: en_US
+2016-03-16 08:11:28 INFO  Messenger:45 - result of recognizeLocale: english.properties
+2016-03-16 08:11:28 INFO  Messenger:50 - received nameOfPropertiesFile: english.properties
+2016-03-16 08:11:28 INFO  Messenger:73 - result of propertiesRead:
+	morning: Good morning, World!
+	day: Good day, World!
+	evening: Good evening, World!
+	night: Good night, World!
+2016-03-16 08:11:28 INFO  Messenger:77 - received currentTime: Wed Mar 16 08:11:28 EET 2016
+2016-03-16 08:11:28 INFO  Messenger:82 - result of getHourFromDate method: 8
+2016-03-16 08:11:28 INFO  Messenger:87 - received hour: 8
+2016-03-16 08:11:28 INFO  Messenger:98 - result of getGreeting: Good morning, World!
+
+2016-03-16 08:14:29 INFO  Messenger:34 - received local: en_US
+2016-03-16 08:14:29 INFO  Messenger:46 - result of recognizeLocale: english.properties
+2016-03-16 08:14:29 INFO  Messenger:51 - received nameOfPropertiesFile: english.properties
+2016-03-16 08:14:29 INFO  Messenger:74 - result of propertiesRead:
+	morning: Good morning, World!
+	day: Good day, World!
+	evening: Good evening, World!
+	night: Good night, World!
+2016-03-16 08:14:29 INFO  Messenger:78 - received currentTime: Wed Mar 16 08:14:29 EET 2016
+2016-03-16 08:14:29 INFO  Messenger:83 - result of getHourFromDate method: 8
+2016-03-16 08:14:29 INFO  Messenger:88 - received hour: 8
+2016-03-16 08:14:29 INFO  Messenger:99 - result of getGreeting: Good morning, World!
+
+2016-03-16 08:14:59 INFO  Messenger:34 - received local: en_US
+2016-03-16 08:14:59 INFO  Messenger:46 - result of recognizeLocale: english.properties
+2016-03-16 08:14:59 INFO  Messenger:51 - received nameOfPropertiesFile: english.properties
+2016-03-16 08:14:59 INFO  Messenger:74 - result of propertiesRead:
+	morning: Good morning, World!
+	day: Good day, World!
+	evening: Good evening, World!
+	night: Good night, World!
+2016-03-16 08:14:59 INFO  Messenger:78 - received currentTime: Wed Mar 16 08:14:59 EET 2016
+2016-03-16 08:14:59 INFO  Messenger:83 - result of getHourFromDate method: 8
+2016-03-16 08:14:59 INFO  Messenger:88 - received hour: 8
+2016-03-16 08:14:59 INFO  Messenger:99 - result of getGreeting: Good morning, World!
+
+2016-03-16 08:15:32 INFO  Messenger:34 - received local: en_US
+2016-03-16 08:15:32 INFO  Messenger:46 - result of recognizeLocale: english.properties
+2016-03-16 08:15:32 INFO  Messenger:51 - received nameOfPropertiesFile: english.properties
+2016-03-16 08:15:32 INFO  Messenger:74 - result of propertiesRead:
+	morning: Good morning, World!
+	day: Good day, World!
+	evening: Good evening, World!
+	night: Good night, World!
+2016-03-16 08:15:32 INFO  Messenger:78 - received currentTime: Wed Mar 16 08:15:32 EET 2016
+2016-03-16 08:15:32 INFO  Messenger:83 - result of getHourFromDate method: 8
+2016-03-16 08:15:32 INFO  Messenger:88 - received hour: 8
+2016-03-16 08:15:32 INFO  Messenger:99 - result of getGreeting: Good morning, World!
+
