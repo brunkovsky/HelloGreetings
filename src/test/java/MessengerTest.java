@@ -7,7 +7,7 @@ import java.util.TimeZone;
 import static org.junit.Assert.*;
 
 public class MessengerTest {
-    private static final int gmt = 1000 * 60 * 60 * 2;              // gmt нужна, чтобы учитывать часовые пояса
+    private static final int gmt = 1000 * 60 * 60 * 2;              // final-переменная gmt нужна, чтобы учитывать часовые пояса
     private static final int oneHour = 1000 * 60 * 60;
     private static final int minutes59 = 1000 * 60 * 59;
 

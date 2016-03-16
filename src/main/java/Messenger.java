@@ -1,12 +1,10 @@
 import org.apache.log4j.Logger;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
-import java.util.Properties;
+import java.util.ResourceBundle;
 
 public class Messenger {
     private static final Logger log = Logger.getLogger(Messenger.class.getName());
@@ -20,57 +18,23 @@ public class Messenger {
     private final static int NIGHT_START = 23;
 
     public Messenger(Locale locale) {
-        String nameOfPropertiesFile = recognizeLocale(locale);
-        propertiesRead(nameOfPropertiesFile);
+        ResourceBundle resourceBundle = ResourceBundle.getBundle("bundle", locale);
+        log.info("received locale in constructor: " + locale);
+        try {
+            morning = new String(resourceBundle.getString("MORNING").getBytes("ISO-8859-1"), "UTF-8");
+            day = new String(resourceBundle.getString("DAY").getBytes("ISO-8859-1"), "UTF-8");
+            evening = new String(resourceBundle.getString("EVENING").getBytes("ISO-8859-1"), "UTF-8");
+            night = new String(resourceBundle.getString("NIGHT").getBytes("ISO-8859-1"), "UTF-8");
+            log.info("result of bundle read:\n\tmorning: " + morning + "\n\tday: " + day + "\n\tevening: " + evening + "\n\tnight: " + night);
+        } catch (UnsupportedEncodingException e) {
+            log.error("UnsupportedEncodingException was happened: " + e);
+            e.printStackTrace();
+        }
     }
 
     public String getGreeting(Date currentTime) {
         int hour = getHourFromDate(currentTime);
         return getGreeting(hour);
-    }
-
-    private String recognizeLocale(Locale locale) {
-        log.info("received local: " + locale);
-        String result;
-        switch (locale.toString()) {
-            case "ru":      // русская локаль для MAC OS X
-                result = "russian.properties";
-                break;
-            case "ru_RU":   // русская локаль для Windows
-                result = "russian.properties";
-                break;
-            default:        // если неизвестная локаль, то берем английскую
-                result = "english.properties";
-        }
-        log.info("result of recognizeLocale: " + result);
-        return result;
-    }
-
-    private void propertiesRead(String nameOfPropertiesFile) {
-        log.info("received nameOfPropertiesFile: " + nameOfPropertiesFile);
-        // здесь мы загружаем тот properties файл, который указали в аргументах конструктора
-        Properties properties = new Properties();
-        InputStream inputStream = getClass().getResourceAsStream(nameOfPropertiesFile);
-        try {
-            // эта строчка нужна, чтобы правильно читалась кириллица
-            InputStreamReader inputStreamReader = new InputStreamReader(inputStream, "UTF-8");
-            properties.load(inputStreamReader);
-        } catch (IOException e) {
-            log.error("IOException while loading properties file: " + e);
-            e.printStackTrace();
-        } finally {
-            try {
-                inputStream.close();
-            } catch (IOException e) {
-                log.error("IOException while close properties file: " + e);
-                e.printStackTrace();
-            }
-        }
-        morning = properties.getProperty("MORNING");
-        day = properties.getProperty("DAY");
-        evening = properties.getProperty("EVENING");
-        night = properties.getProperty("NIGHT");
-        log.info("result of propertiesRead:\n\tmorning: " + morning + "\n\tday: " + day + "\n\tevening: " + evening + "\n\tnight: " + night);
     }
 
     private int getHourFromDate(Date currentTime) {
